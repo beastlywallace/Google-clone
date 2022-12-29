@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import { Header } from '../components/Header'
-// import { API_KEY, CONTEXT_KEY } from './keys'
 import { useRouter } from 'next/router'
 import { SearchResults   } from '../components/SearchResults'
 import Response from '../Response'
 const Search = ({results}) => {
-  console.log("ffff", results)
+  // console.log("ffff", results)
   const router=useRouter()
   return (
       <div>
