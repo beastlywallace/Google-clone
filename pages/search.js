@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Header } from '../components/Header'
-import { API_KEY, CONTEXT_KEY } from './keys'
+// import { API_KEY, CONTEXT_KEY } from './keys'
 import { useRouter } from 'next/router'
 import { SearchResults   } from '../components/SearchResults'
 import Response from '../Response'
@@ -19,7 +19,8 @@ const Search = ({results}) => {
   )
 }
 export default Search 
-
+const API_KEY = process.env.API_KEY
+const CONTEXT_KEY = process.env.CONTEXT_KEY
 export async function getServerSideProps(context) {
   const useDummyData = false; //initially true during the work
   const startIndex= context.query.start || "0"

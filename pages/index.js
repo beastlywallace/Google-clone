@@ -32,12 +32,12 @@ export default function Home() {
           <p className="link">Gmail</p>
           <p className="link">images</p>
           <ViewGridIcon className="h-10 w-10 rounded-full hover:bg-gray-100 cursor-pointer" />
-          <Avatar url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qwJQQGx-Ufp4qsLckPIbiPbOQNrq-UarMtj3-lWEj8uO0i4Vl5sdW8j3r5sW1bpWjjg&usqp=CAU" />
+          <Avatar url="/akpevwe.jpeg" />
         </div>
       </header>
       <form className="flex flex-col items-center mt-44 flex-grow  w-4/5">
         <Image
-          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png    "
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           height={100}
           width={300}
         />

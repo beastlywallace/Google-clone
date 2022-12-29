@@ -27,7 +27,7 @@ export const Header = () => {
                   <button hidden type="submit" onClick={search}>search</button>
                   
               </form>
-              <Avatar className="ml-auto" url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qwJQQGx-Ufp4qsLckPIbiPbOQNrq-UarMtj3-lWEj8uO0i4Vl5sdW8j3r5sW1bpWjjg&usqp=CAU"/>
+              <Avatar className="ml-auto" url="/akpevwe.jpeg"/>
           </div>
           <HeaderOptions/>
       </header>
