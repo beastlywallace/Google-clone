@@ -1,5 +1,7 @@
 import React from 'react'
+import { PaginationButtons } from './PaginationButtons'
 
+import Link from 'next/link'
 export const SearchResults = ({results}) => {
   return (
       <div className='mx-auto w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52'>
@@ -20,6 +22,7 @@ export const SearchResults = ({results}) => {
                     <p className='line-clamp-2'>{result.snippet}</p>
                 </div>
             ))}
+          <PaginationButtons/ >
         </div>
   )
 }
