@@ -18,7 +18,7 @@ export const Header = () => {
   return (
       <header className='sticky top-0 bg-white'>
           <div className='flex w-full p-6 items-center'> 
-          <Image onClick={()=> router.push('/')} className="cursor-pointer" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" height={40} width={120 } />
+          <Image onClick={()=> router.push('/')} className="cursor-pointer" alt="pic" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" height={40} width={120 } />
           <form className='flex  flex-grow px-6 py-3  ml-10 mr-5 rounded-full  border border-gray-200 shadow-lg '>
               <input type="text" className='flex-grow w-full focus:outline-none' ref={searchInputRef} />
               <XIcon onClick={() => { searchInputRef.current.value = "" }} className='h-7 sm:mr-3 text-gray-500 transition duration-100 transform hover:scale-125' />
